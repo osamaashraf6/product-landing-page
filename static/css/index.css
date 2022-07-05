@@ -1,0 +1,160 @@
+/* start index styles */
+/* 
+1.index styles
+2.universal styles
+3.common styles
+4.content styles
+
+*/
+/* end index styles */
+/* start universal styles */
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400px;
+  line-height: 1.42857143;
+  color: #fff;
+}
+/* end universal styles */
+/* start common styles */
+ul {
+  list-style-type: none;
+}
+li {
+  display: inline-block;
+}
+a {
+  text-decoration: none;
+}
+.float {
+  float: left;
+}
+.float-r {
+  float: right;
+}
+.width50 {
+  width: 50%;
+}
+.width10 {
+  width: 10%;
+}
+.width90 {
+  width: 90%;
+}
+.ml {
+  margin-left: 5%;
+}
+.mlr {
+  margin: 0 5%;
+}
+.overflow {
+  overflow: hidden;
+}
+.clear {
+  clear: both;
+}
+.display {
+  display: none;
+}
+.center {
+  text-align: center;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+.pd-y {
+  padding: 174px 0;
+}
+.responsive {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* end common styles */
+/* start content styles */
+/* start nav */
+.nav {
+  background-color: brown;
+}
+.nav__container__parnav__brand {
+  line-height: 62px;
+}
+.nav__container__parnav__brand > a {
+  font-size: 30px;
+  color: #fff !important;
+}
+.nav__container__parnav__ul > li > a {
+  display: block;
+  color: #fff !important;
+  padding: 22px;
+}
+.nav__container__parnav__ul > li:hover {
+  background-color: yellowgreen;
+}
+/* end nav */
+/* start sectionone */
+.sectionone {
+  position: relative;
+}
+.sectionone__wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  background-color: yellowgreen;
+  border-radius: 5px;
+}
+.sectionone__wrapper > h4 {
+  margin-bottom: 15px;
+  letter-spacing: 2px;
+}
+.sectionone__wrapper__input {
+  margin-bottom: 20px;
+}
+.sectionone__wrapper__input__inpt {
+  border: 0;
+  outline: 0;
+  border-radius: 5px;
+  padding: 10px;
+  width: 100%;
+}
+.sectionone__wrapper > button {
+  border: 0;
+  outline: 0;
+  border-radius: 5px;
+  padding: 10px;
+  width: 30%;
+  display: block;
+  margin: auto;
+}
+/* end sectionone */
+/* start sectiontwo */
+.sectiontwo__container__contents {
+  width: 70%;
+  margin: auto;
+}
+.sectiontwo__container__contents__content {
+  background-color: brown;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.sectiontwo__container__contents__content__aside__left > i {
+  font-size: 41px;
+  color: orange !important;
+  line-height: 85px;
+}
+.sectiontwo__container__contents__content__aside__right > h3 {
+  margin-bottom: 15px;
+}
+/* end sectiontwo */
+/* end content styles */
