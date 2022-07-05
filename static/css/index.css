@@ -150,7 +150,7 @@ a {
 }
 .sectiontwo__container__contents__content__aside__left > i {
   font-size: 41px;
-  color: orange !important;
+  color: rgb(255, 166, 0) !important;
   line-height: 85px;
 }
 .sectiontwo__container__contents__content__aside__right > h3 {
@@ -158,3 +158,76 @@ a {
 }
 /* end sectiontwo */
 /* end content styles */
+
+/* Start of last Section */
+#how-it-works{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+#how-it-works > iframe{
+  width: 100%;
+  max-width: 560px;
+}
+#pricing{
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.product{
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  text-align: center;
+  width: calc(100% /3);
+  margin: 5px;
+  border: 1px solid;
+  border-radius: 5px;
+  background-color: brown;
+}
+.product > .level{
+  padding: 15px 0;
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.product > h2{
+  margin: 15px;
+}
+.product > ol{
+  margin: 15px 0;
+}
+.product > ol > li{
+  padding: 5px 0;
+}
+.product > button{
+  border: 0;
+  margin: 15px 0;
+  padding: 20px 30px;
+  background-color: #f1c40f;
+  font-weight: 400;
+}
+footer{
+  margin-top: 30px;
+  background-color: brown;
+  padding: 20px;
+}
+footer > ul{
+  display: flex;
+  justify-content: flex-end;
+}
+footer > ul > li{
+  padding: 0 20px;
+}
+footer > ul > li > a{
+  text-decoration: none;
+  color: #fff;
+}
+footer > span{
+  margin-top: 5px;
+  display: flex;
+  justify-content: flex-start;
+  font-size: 0.9em;
+}
+
